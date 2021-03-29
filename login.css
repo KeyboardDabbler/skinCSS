@@ -67,3 +67,7 @@
     background: #303030;
     color: #000;
 }
+
+.skinHeader {
+  display: none;
+}
