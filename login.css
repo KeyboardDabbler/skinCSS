@@ -55,7 +55,15 @@
   backdrop-filter: blur(10px);
 }
 
+/* pw check icon */
 .checkboxIcon {
     font-size: 1.6em;
+    color: #000;
+}
+
+/* forgot pw color */
+.fab,
+.raised {
+    background: #303030;
     color: #000;
 }
