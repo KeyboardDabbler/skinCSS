@@ -54,3 +54,8 @@
   border-radius: 20px;
   backdrop-filter: blur(10px);
 }
+
+.checkboxIcon {
+    font-size: 1.6em;
+    color: #000;
+}
