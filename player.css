@@ -17,10 +17,10 @@
 
 /*video Page*/
 .mdl-slider-background-lower {
-  background-color: #e50914 1important;
+  background-color: #f7d144 !important;
 }
 .sliderBubble {
-  background: #e50914 !important;
+  background: #f7d144 !important;
 }
 
 /*Theming video page*/
@@ -32,5 +32,5 @@
   background: linear-gradient(to bottom, black 20%, transparent) !important;
 }
 .videoOsdBottom .buttons {
-  color: #e50914;
+  color: #f7d144;
 }
