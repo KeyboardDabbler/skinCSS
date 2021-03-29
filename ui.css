@@ -73,7 +73,7 @@ video:cue {
 
 /*Progress Bar*/
 .emby-checkbox:checked+span+.checkboxOutline {
-  background-color: #e50914 !important;
+  background-color: #f7d144 !important;
 }
 
 /*Rounded corners and square hover buttons*/
@@ -109,7 +109,7 @@ video:cue {
 .emby-input,
 .emby-textarea {
   color: inherit;
-  border: .07em solid #e50914;
+  border: .07em solid #f7d144 ;
   border-radius: .2em;
   box-shadow: 0 0 8px 0px black !important;
   background: rgba(0, 0, 0, 0.2) !important;
@@ -119,7 +119,7 @@ video:cue {
 }
 
 .emby-select-withcolor {
-  border: .07em solid #e50914;
+  border: .07em solid #f7d144;
 }
 
 .playedIndicator,
@@ -163,7 +163,7 @@ video:cue {
   transform: scale(1.08);
 }
 .paper-icon-button-light:hover:not(:disabled) {
-  color: #e50914;
+  color: #f7d144;
   background-color: #2020208c;
   box-shadow: 0 0 15px -2px black;
 }
@@ -183,14 +183,14 @@ video:cue {
   background: rgba(0,0,0,0.4) !important;
 }
 .raised {
-  background:#e50914 !important;
+  background:#f7d144 !important;
   border-radius: 5px !important;
 }
 .navMenuOption-selected {
-  background: #e50914 !important;
+  background: #f7d144 !important;
 }
 .button-flat:hover {
-  color: #e50914;
+  color: #f7d144;
   transform: scale(1.5);
 }
 .listItem.listItem-border:hover {
@@ -199,11 +199,11 @@ video:cue {
 }
 .listItem.listItem-border {
   transition: border-color .2s, background .2s;
-  border-color: #e50914 !important;
+  border-color: #f7d144 !important;
 }
 .listItem-border {
   transition: border-color .2s, background .2s;
-  border-color: #e50914 !important;
+  border-color: #f7d144 !important;
 }
 div#divRunningTasks:hover {
   transform: scale(1.1);
@@ -272,18 +272,18 @@ h2 {
 }
 .countIndicator, .fullSyncIndicator, .playedIndicator {
   background: #ffffffad;
-  color: #e50914;
+  color: #f7d144;
 }
 .playedIndicator {
-  background: #e50914;
+  background: #f7d144;
   color: white;
   box-shadow: 0 0 15px -2px black;
 }
 button.emby-tab-button.emby-button.emby-tab-button-active:hover {
-  color: #e50914 !important;
+  color: #f7d144 !important;
 }
 .emby-tab-button.show-focus:focus, .emby-tab-button:hover {
-  color: #e50914 !important;
+  color: #f7d144 !important;
 }
 
 /*Theming Title Page*/
