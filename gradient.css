@@ -1,0 +1,43 @@
+/*
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+*/
+/* -----------------------------------------------   Gradients               ---------------------------------------------- */
+/*
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+*/
+:root {--right: linear-gradient(to right, rgba(247,209,68,1) 18%, rgba(33,161,253,1) 100%) !important;}
+:root {--left: linear-gradient(to left, rgba(247,209,68,1) 18%, rgba(33,161,253,1) 100%) !important;}
+.actionSheetMenuItem:hover {
+  background: var(--right) !important;
+}
+.navMenuOption.emby-button:hover{
+  background: var(--left) !important;
+}
+.raised.emby-button:hover{
+  background: var(--right) !important;
+}
+.navMenuOption-selected {
+  background: var(--right) !important;
+}
