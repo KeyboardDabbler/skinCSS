@@ -68,6 +68,5 @@
     color: #000;
 }
 
-#loginPage .headerTop {
-    display: none;
-}
+div.skinHeader.skinHeader-withBackground.headroom.noHeaderRight {display:none; }
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
