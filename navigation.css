@@ -1,0 +1,42 @@
+/*
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+*/
+/* -----------------------------------------------   Scrollbar Theme    ---------------------------------------------- */
+/*
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+*/
+::-webkit-scrollbar-thumb {
+  background: #f7d144 !important;
+}
+.page {
+  padding-bottom: 0 !important;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0) !important;
+  box-shadow: none !important;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0,0,0,0) !important;
+}
