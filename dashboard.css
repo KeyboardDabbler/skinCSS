@@ -1,0 +1,60 @@
+/*
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+*/
+/* -----------------------------------------------   Dashboard          ---------------------------------------------- */
+/*
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+*/
+.paperList,
+.visualCardBox {
+  background-color: #141414;
+  border-radius: 6px;
+}
+
+.backgroundContainer {
+  background-color: #000;
+}
+
+.listItemIcon {
+  border-radius: 6px !important;
+}
+
+/* bell icon */
+.listItemIcon:not(.listItemIcon-transparent) {
+  background-color: #f7d144 !important;
+  color: #000;
+}
+
+.listItem-border {
+  border-color: rgba(247, 209, 68, 0.4) !important;
+}
+
+.headerButton.headerButtonRight.paper-icon-button-light.headerUserButtonRound {
+  border-radius: var(--rounding) !important;
+}
+
+.button-link {
+    color: #f7d144;
+}
