@@ -74,6 +74,10 @@ video:cue {
     color: #f7d144;
 }
 
+.playstatebutton-icon-played {
+    color: #5dd000;
+}
+
 .playedIndicator {
   background: #5dd000;
 }

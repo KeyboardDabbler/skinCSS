@@ -327,7 +327,7 @@ html {
 }
 
 .emby-tab-button-active {
-    color: #000;
+    color: #fff;
 }
 
 .emby-tab-button.show-focus:focus {
@@ -409,10 +409,6 @@ html {
 .downloadbutton-icon-complete,
 .downloadbutton-icon-on {
     color: #4285f4;
-}
-
-.playstatebutton-icon-played {
-    color: #c33;
 }
 
 .buttonActive {

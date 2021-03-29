@@ -74,7 +74,7 @@ fieldset.verticalSection.verticalSection-extrabottompadding {
   border-radius: var(--rounding) !important;
 }
 .navMenuOption:hover {
-  background: rgba(0, 164, 220, 0.2) !important;
+  background: rgba(247, 209, 68, 0.2) !important;
   border-right-color: #f7d144;
 }
 
