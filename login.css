@@ -68,9 +68,6 @@
     color: #000;
 }
 
-div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent.noHeaderRight {display:none; }
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
-    background: none;
-    background-color: rgba(0, 0, 0, 0);
-    display: none;
+div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent.noHeaderRight {
+  display:none;
 }
