@@ -68,5 +68,4 @@
     color: #000;
 }
 
-div.skinHeader.skinHeader-withBackground.headroom.noHeaderRight {display:none; }
-.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent.noHeaderRight {display:none; }
