@@ -67,6 +67,13 @@ video:cue {
   text-shadow: none;
 }
 
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: #f7d144;
+}
+
 .playedIndicator {
   background: #5dd000;
 }
@@ -109,7 +116,7 @@ video:cue {
 .emby-input,
 .emby-textarea {
   color: inherit;
-  border: .07em solid #f7d144 ;
+  border: .07em solid #7b7b7b ;
   border-radius: .2em;
   box-shadow: 0 0 8px 0px black !important;
   background: rgba(0, 0, 0, 0.2) !important;
