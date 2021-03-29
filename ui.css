@@ -282,7 +282,7 @@ h2 {
   box-shadow: 0 0 15px -2px black;
 }
 .countIndicator, .fullSyncIndicator, .playedIndicator {
-  background: #f7d044b4;
+  background: #f7d044e7;
   color: #000;
 }
 .playedIndicator {
