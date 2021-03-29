@@ -68,6 +68,6 @@
     color: #000;
 }
 
-.headerTop {
+#loginPage .headerTop {
     display: none;
 }
