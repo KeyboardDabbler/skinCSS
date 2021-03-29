@@ -66,3 +66,244 @@ video:cue {
   background: #aa5cc3;
   text-shadow: none;
 }
+
+.playedIndicator {
+  background: #5dd000;
+}
+
+/*Progress Bar*/
+.emby-checkbox:checked+span+.checkboxOutline {
+  background-color: #e50914 !important;
+}
+
+/*Rounded corners and square hover buttons*/
+.cardContent-button,
+.cardContent-shadow,
+.itemDetailImage,
+.cardOverlayButton-hover,
+.cardOverlayContainer,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog {
+  border-radius: 10px !important;
+}
+
+.dialog {
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(60px) !important;
+  -webkit-backdrop-filter: blur(60px) !important;
+  -moz-backdrop-filter: blur (60px) !important;
+  -o-backdrop-filter: blur(60px) !important;
+  box-shadow: 0 0 20px 4px black;
+}
+
+/*Hover items*/
+.emby-input,
+.emby-textarea {
+  color: inherit;
+  border: .07em solid #e50914;
+  border-radius: .2em;
+  box-shadow: 0 0 8px 0px black !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  text-shadow: 0 0 5px black;
+}
+
+.emby-select-withcolor {
+  border: .07em solid #e50914;
+}
+
+.playedIndicator,
+.countIndicator {
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px black;
+}
+
+.actionSheetMenuItem:hover {
+  background: linear-gradient(140deg, #aa5cc385, #00a4dc75) !important;
+}
+
+.cardBox {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px 0px rgb(0 0 0);
+  transition: background .15s ease-out, box-shadow .15s ease-out;
+}
+
+.card:hover .cardBox {
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 5px 9px black;
+}
+
+.cardImageContainer {
+  background-size: 105%;
+  transition: background .15s ease-out;
+}
+
+.card:hover .cardImageContainer{
+  background-size: 120%;
+}
+
+.progressring-bg {
+  border: .25em solid transparent;
+  background: transparent;
+}
+
+.cardBox:hover {
+  box-shadow: 0px 0px 0px 0px black;
+  transform: scale(1.08);
+}
+.paper-icon-button-light:hover:not(:disabled) {
+  color: #e50914;
+  background-color: #2020208c;
+  box-shadow: 0 0 15px -2px black;
+}
+.itemName.parentNameLast {
+  font-size: 35px;
+}
+
+.button-flat:hover {
+  transform: scale(1.5);
+}
+
+.button-flat {
+  border-radius: 5px !important;
+}
+
+#indexPage a.raised.homeLibraryButton.emby-button {
+  background: rgba(0,0,0,0.4) !important;
+}
+.raised {
+  background:#e50914 !important;
+  border-radius: 5px !important;
+}
+.navMenuOption-selected {
+  background: #e50914 !important;
+}
+.button-flat:hover {
+  color: #e50914;
+  transform: scale(1.5);
+}
+.listItem.listItem-border:hover {
+  border-color: rgba(0, 0, 0, 0) !important;
+  background: #3f3f3f;
+}
+.listItem.listItem-border {
+  transition: border-color .2s, background .2s;
+  border-color: #e50914 !important;
+}
+.listItem-border {
+  transition: border-color .2s, background .2s;
+  border-color: #e50914 !important;
+}
+div#divRunningTasks:hover {
+  transform: scale(1.1);
+}
+div#divRunningTasks {
+  transition: transform .2s, background .2s;
+}
+
+.navMenuOption-selected {
+  background: linear-gradient(140deg, #00a4dc, #aa5cc3) !important;
+}
+
+.detailPageContent {
+  text-shadow: 0 0 5px black;
+  background: #141414;
+}
+select {
+  box-shadow: 0 0 6px 0px black !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(50px) !important;
+  -webkit-backdrop-filter: blur(50px);
+  text-shadow: 0 0 5px black !important;
+}
+.detailPagePrimaryContainer.padded-left.padded-right.detailRibbon,
+button.button-flat.btnResume.detailButton.emby-button,
+button.emby-tab-button.emby-button,
+h2 {
+  text-shadow: 0 0 5px black;
+}
+.tmla-mask {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(0,0,0,0);
+}
+.dialogBackdropOpened {
+  opacity: 1 !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.dialogBackdrop {
+  background-color: #0000;
+}
+.listItem:hover {
+  background: black;
+}
+.listItem {
+  transition: transform .2s, background .2s, border-color .2s;
+}
+
+/*Mini My media*/
+#indexPage .raised.emby-button:hover {
+  background: rgb(0, 0, 0, .75) !important;
+  box-shadow: 0px 5px 9px 0px black;
+}
+
+#indexPage .raised.emby-button {
+  background: rgb(0, 0, 0, .25) !important;
+  box-shadow: 0px 0px 9px 0px black;
+  transition: background .15s ease-out, box-shadow .15s ease-out;
+}
+
+/*Theming Indicators*/
+.playedIndicator, .countIndicator {
+  border-radius: 5px;
+  box-shadow: 0 0 15px -2px black;
+}
+.countIndicator, .fullSyncIndicator, .playedIndicator {
+  background: #ffffffad;
+  color: #e50914;
+}
+.playedIndicator {
+  background: #e50914;
+  color: white;
+  box-shadow: 0 0 15px -2px black;
+}
+button.emby-tab-button.emby-button.emby-tab-button-active:hover {
+  color: #e50914 !important;
+}
+.emby-tab-button.show-focus:focus, .emby-tab-button:hover {
+  color: #e50914 !important;
+}
+
+/*Theming Title Page*/
+div#itemBackdrop {
+  height: 70% !Important;
+}
+.layout-desktop .detailRibbon, .layout-tv .detailRibbon {
+  height: 14.2em;
+  margin-top: -11%;
+}
+.detailPageSecondaryContainer {
+  margin: 0em;
+  background: #141414;
+}
+.detailRibbon {
+  background: linear-gradient(to top, #141414, transparent);
+}
+.layout-desktop .itemBackdrop:after, .layout-tv .itemBackdrop:after {
+  background: rgba(0,0,0,0.1) !important;
+}
+.itemName {
+  font-size: 3em !important;
+}

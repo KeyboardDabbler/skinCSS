@@ -1,0 +1,36 @@
+/*Minimalistic play buttons*/
+.cardOverlayFab-primary {
+  background-color: #00000000;
+}
+.cardOverlayButtonIcon {
+  background-color: #00000000 !important;
+}
+.cardOverlayContainer {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px 5px 0px 0px !important;
+}
+
+/*Video Player*/
+.layout-desktop .osdControls {
+  width: 100%;
+}
+
+/*video Page*/
+.mdl-slider-background-lower {
+  background-color: #e50914 1important;
+}
+.sliderBubble {
+  background: #e50914 !important;
+}
+
+/*Theming video page*/
+.videoOsdBottom {
+  background: linear-gradient(to top, black 20%, transparent);
+  padding-top: 10em;
+}
+.osdHeader {
+  background: linear-gradient(to bottom, black 20%, transparent) !important;
+}
+.videoOsdBottom .buttons {
+  color: #e50914;
+}

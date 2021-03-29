@@ -37,6 +37,14 @@
   background-color: #000;
 }
 
+.button-link {
+    color: #f7d144;
+}
+
+.raised {
+  background: #f7d144;
+}
+
 .listItemIcon {
   border-radius: 6px !important;
 }
@@ -52,9 +60,6 @@
 }
 
 .headerButton.headerButtonRight.paper-icon-button-light.headerUserButtonRound {
-  border-radius: var(--rounding) !important;
+  border-radius: 5px !important;
 }
 
-.button-link {
-    color: #f7d144;
-}
